@@ -1,3 +1,8 @@
 #!/bin/bash
 i=3
-echo $i
+while [ $i -gt 0 ]
+do
+	echo $i
+	#let i-=1
+	((i--))
+done
